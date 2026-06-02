@@ -37,3 +37,4 @@ def test_active_resource_returns_false():
     )
 
     assert resource.audit() is False
+    
