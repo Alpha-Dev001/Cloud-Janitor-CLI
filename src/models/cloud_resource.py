@@ -26,5 +26,11 @@ class CloudResource:
             f"Resource {self.resource_id} "
             f"({self.resource_type}) is compliant"
         )
-
         return False
+
+    def risk_score(self) -> int:
+        if self.status == "orphaned":
+            return 10
+        if self.status == "idle":
+            return 5
+        return 0

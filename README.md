@@ -4,12 +4,13 @@ A Python-based cloud auditing utility that identifies idle and orphaned infrastr
 
 ## Features
 
-* Environment-based configuration
-* Structured logging
-* Resource auditing
-* Automated report generation
-* Unit testing with pytest
-* GitHub Actions CI pipeline
+- Cloud resource modeling using OOP
+- Risk detection system (idle/orphaned resources)
+- Structured logging (production-style)
+- Environment-based configuration (.env support)
+- JSON audit report generation
+- Dry-run mode for safe execution
+
 
 ## Installation
 
